@@ -8,7 +8,7 @@ namespace ValoresEspeciais
 
         static void Main(string[] args)
         {
-
+       
             Console.OutputEncoding = Encoding.UTF8;
 
             Console.WriteLine(float.NegativeInfinity);
@@ -22,6 +22,18 @@ namespace ValoresEspeciais
 
             Console.WriteLine(long.MaxValue);
             Console.WriteLine(long.MinValue);
+
+
+
+
+            Console.WriteLine("Overflow: ");
+
+            Console.WriteLine((float)(float.MaxValue + (float.MaxValue));
+            Console.WriteLine((float)(float.MinValue - 1));
+
+
+
+
 
         }
     }
