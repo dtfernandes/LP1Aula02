@@ -8,9 +8,11 @@ namespace Cilindro
         {
             
             //Variables
-            const float pi = 3.1415926f;
+            const float pi = (float)Math.PI;
             float radius, height = 0;
             float area, volume;
+
+            
 
             //Ask For Input
             Console.WriteLine("Please introduce height and radius!");
@@ -23,7 +25,7 @@ namespace Cilindro
             }
 
             //Volume
-            volume = pi * radius * radius * height;
+            volume = pi * (float)Math.Pow(radius,2) * height;
 
             //Area
             area = 2 * pi * radius * (radius + height);
